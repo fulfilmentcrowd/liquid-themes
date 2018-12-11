@@ -1,4 +1,4 @@
-# Test
+# Test With Updates
 
 Template pages are extremely important for a theme because all of the page content is rendered inside the active template. There is only ever one active template on your website at any given time and this can be chosen by each physical page.
 
@@ -16,7 +16,17 @@ Blocks are a vital part of liquid themes. They allow content to be dynamically o
 MASTER
 
 ```text
-<html>    <head>        <title>Master Template Page</title>    </head>    <body>          {% block page-content %}            <!-- Content from a physical page will be injected here -->        {% endblock %}       </body></html>Physical Page (HOME)
+<html>    
+<head>        
+<title>Master Template Page</title>    
+</head>    
+<body>          
+{% block page-content %}            
+<!-- Content from a physical page will be injected here -->        
+{% endblock %}       
+</body>
+</html>
+Physical Page (HOME)
 ```
 
 HOME
